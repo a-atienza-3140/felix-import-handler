@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/worker.ts"
+    "start": "npx tsx --watch src/worker.ts"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
